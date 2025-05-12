@@ -1,5 +1,6 @@
 import 'package:fibre_kits/pages/home_page.dart';
 import 'package:fibre_kits/pages/messager_page.dart';
+import 'package:fibre_kits/pages/scan_page.dart';
 import 'package:fibre_kits/pages/settings_page.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
@@ -52,6 +53,21 @@ class MainStruct extends StatelessWidget {
                 Future.delayed(const Duration(milliseconds: 100), () {
                   Get.to(
                   () => const MessagerPage(),
+                  transition: Transition.rightToLeft,
+                  duration: const Duration(milliseconds: 300),
+                  );
+                });
+              },
+            ),
+            ListTile(
+              title: const Text('Scan'),
+              subtitle: const Text('扫码'),
+              leading: const Icon(Icons.qr_code),
+              onTap: () {
+                Get.back();
+                Future.delayed(const Duration(milliseconds: 100), () {
+                  Get.to(
+                  () => const ScanPage(),
                   transition: Transition.rightToLeft,
                   duration: const Duration(milliseconds: 300),
                   );
