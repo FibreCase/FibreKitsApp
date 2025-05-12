@@ -3,7 +3,6 @@ import 'package:fibre_kits/pages/messager_page.dart';
 import 'package:fibre_kits/pages/settings_page.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:get/utils.dart';
 
 class MainStruct extends StatelessWidget {
   const MainStruct({super.key});

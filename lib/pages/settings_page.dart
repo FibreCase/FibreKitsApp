@@ -16,7 +16,7 @@ class SettingsPage extends StatelessWidget {
             flexibleSpace: const FlexibleSpaceBar(
               title: Text('Settings'),
               centerTitle: true,
-              expandedTitleScale: 2, 
+              expandedTitleScale: 2,
             ),
           ),
           SliverFillRemaining(
@@ -33,34 +33,32 @@ class SettingsPage extends StatelessWidget {
                   title: Text('Snackbar Test'),
                   subtitle: Text('测试 Snackbar'),
                   leading: Icon(Icons.text_snippet),
-                  onTap: () => FloatingSnackbar.show(
-                    context,
-                    message: 'Snackbar 测试消息',
-                    duration: const Duration(seconds: 2),
-                    icon: Icons.check_circle,
-                    actionLabel: '确定',
-                    onAction: () {
-                      print('Snackbar action clicked');
-                    },
-                  ),
+                  onTap:
+                      () => FloatingSnackbar.show(
+                        context,
+                        message: 'Snackbar 测试消息',
+                        duration: const Duration(seconds: 2),
+                        icon: Icons.check_circle,
+                        actionLabel: '确定',
+                        onAction: () {},
+                      ),
                 ),
                 ListTile(
                   title: Text('Snackbar Warning Test'),
                   subtitle: Text('测试 Snackbar 警告'),
                   leading: Icon(Icons.warning),
-                  onTap: () => FloatingSnackbar.show(
-                    context,
-                    message: 'Snackbar 警告消息',
-                    duration: const Duration(seconds: 2),
-                    backgroundColor: theme.colorScheme.error,
-                    textColor: theme.colorScheme.onError,
-                    actionTextColor: theme.colorScheme.onError,
-                    icon: Icons.warning,
-                    actionLabel: '确定',
-                    onAction: () {
-                      print('Snackbar action clicked');
-                    },
-                  ),
+                  onTap:
+                      () => FloatingSnackbar.show(
+                        context,
+                        message: 'Snackbar 警告消息',
+                        duration: const Duration(seconds: 2),
+                        backgroundColor: theme.colorScheme.error,
+                        textColor: theme.colorScheme.onError,
+                        actionTextColor: theme.colorScheme.onError,
+                        icon: Icons.warning,
+                        actionLabel: '确定',
+                        onAction: () {},
+                      ),
                 ),
               ],
             ),
