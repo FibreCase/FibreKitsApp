@@ -1,16 +1,7 @@
 # fibre_kits
 
-A new Flutter project.
+本项目旨在学习Flutter的移动端应用构建，形成快速构建美观的前端应用的能力
 
-## Getting Started
+## 仓库
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+本项目主仓库为[Gitea](https://git.fibrecase.xin:55443/fibrecase/FibreKitsApp)，并制作了Project Kanban用于跟踪项目进度，Github仓库仅用于自动化构建
