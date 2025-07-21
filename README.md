@@ -5,3 +5,5 @@
 ## 仓库
 
 本项目主仓库为[Gitea](https://git.fibrecase.xin:55443/fibrecase/FibreKitsApp)，并制作了Project Kanban用于跟踪项目进度，Github仓库仅用于自动化构建
+
+<!-- 测试GPG签名 -->
